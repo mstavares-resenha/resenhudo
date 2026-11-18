@@ -56,7 +56,7 @@ h1,h2,h3{text-wrap:balance;margin:0;font-weight:400}
 
 /* Formulários */
 label.f{display:flex;flex-direction:column;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--giz-2);flex:1;min-width:0}
-input[type=text],input[type=number],input[type=date],select{width:100%;background:var(--piso-2);border:1px solid var(--linha);border-radius:4px;padding:11px 12px;font-family:var(--body);font-size:16px;letter-spacing:0;text-transform:none;color:var(--giz)}
+input[type=text],input[type=number],input[type=date],input[type=password],select{width:100%;background:var(--piso-2);border:1px solid var(--linha);border-radius:4px;padding:11px 12px;font-family:var(--body);font-size:16px;letter-spacing:0;text-transform:none;color:var(--giz)}
 input:focus,select:focus{border-color:var(--giz-2);outline:none}
 input:focus-visible,select:focus-visible{outline:2px solid var(--colete);outline-offset:1px}
 input[type=number]{text-align:center;font-family:var(--display);font-weight:900;font-size:40px;padding:4px;line-height:1.1}
